@@ -1,0 +1,5 @@
+"""Constants for Vimar View Door."""
+DOMAIN = "vimar_viewdoor"
+CONF_FINGERPRINT = "certificate_fingerprint"
+CONF_CHANNEL = "channel"
+CONF_STREAM = "stream"

@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect your Vimar View Door monitor",
+        "description": "Enter its local IP address and the numeric device password used by View Door. This uses a local connection. The certificate presented by this address during setup will be remembered for later connections. Camera support is experimental; ring alerts and two-way audio are not included.",
+        "data": {
+          "name": "Name",
+          "host": "Monitor IP address",
+          "password": "View Door device password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Update device password",
+        "data": {
+          "password": "View Door device password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The monitor rejected this device password.",
+      "cannot_connect": "Could not connect to the monitor.",
+      "invalid_device": "Enter a local IP address and numeric device password for a supported View Door monitor.",
+      "certificate_changed": "The device certificate changed. Verify the monitor identity, then remove and add the integration again."
+    },
+    "abort": {
+      "already_configured": "This monitor is already configured.",
+      "reauth_successful": "Device password updated.",
+      "wrong_device": "The monitor identity does not match the configured device."
+    }
+  }
+}

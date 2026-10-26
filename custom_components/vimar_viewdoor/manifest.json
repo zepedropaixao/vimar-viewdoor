@@ -1,0 +1,20 @@
+{
+  "domain": "vimar_viewdoor",
+  "name": "Vimar View Door",
+  "codeowners": [
+    "@zepedropaixao"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "ffmpeg",
+    "stream"
+  ],
+  "documentation": "https://github.com/zepedropaixao/vimar-viewdoor",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [
+    "quii-helper==0.2.0"
+  ],
+  "version": "0.2.0-beta.1",
+  "issue_tracker": "https://github.com/zepedropaixao/vimar-viewdoor/issues"
+}

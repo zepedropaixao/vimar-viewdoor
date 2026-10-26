@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env*
+*.pyc
+*.jpg
+*.mp4
+*.pem
+*.pcap*
+
+.local/
+*.log
+*.jsonl
+*.db
+.DS_Store
+!.env.example
